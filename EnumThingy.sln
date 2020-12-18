@@ -7,7 +7,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumThingy", "EnumThingy\En
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExternalDllWithEnums", "ExternalDllWithEnums\ExternalDllWithEnums.csproj", "{284BF170-982E-4B49-9C0F-D467D0D66759}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumThingy.Tests", "..\EnumThingy.Tests\EnumThingy.Tests.csproj", "{2081FB49-3D66-483B-A510-A8117A65EB1B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EnumThingy\EnumThingy.Tests", "EnumThingy.Tests\EnumThingy.Tests.csproj", "{2081FB49-3D66-483B-A510-A8117A65EB1B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

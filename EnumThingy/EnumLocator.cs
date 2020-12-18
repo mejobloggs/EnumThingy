@@ -20,8 +20,6 @@ namespace EnumThingy
 			string path = Path.GetDirectoryName(Assembly.GetExecutingAssembly().Location)
 				+ $"\\{_assemblyName}.dll";
 
-			path = path.Replace("EnumThingy.Tests", "EnumThingy\\EnumThingy");
-
 			_assembly = Assembly.LoadFile(path);
 		}
 
