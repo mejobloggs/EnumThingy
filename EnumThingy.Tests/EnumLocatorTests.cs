@@ -18,9 +18,16 @@ namespace EnumThingy.Tests
 		}
 
 		[TestMethod]
-		public void EnumNameAndValueReturnsCorrectValue()
+		public void EnumNameAndValueNameReturnsCorrectValue()
 		{
 			int result = _enumLocator.GetEnumValue("OrangeCatEnum", "Small");
+			Assert.AreEqual((int)OrangeCatEnum.Small, result);
+		}
+
+		[TestMethod]
+		public void EnumNameAndDifferentCaseValueNameReturnsCorrectValue()
+		{
+			int result = _enumLocator.GetEnumValue("OrangeCatEnum", "sMAll");
 			Assert.AreEqual((int)OrangeCatEnum.Small, result);
 		}
 

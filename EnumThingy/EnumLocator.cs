@@ -29,7 +29,7 @@ namespace EnumThingy
 			Type type = _assembly.GetType($"{_assemblyName}.Enums.{enumName}");
 			if (type?.IsEnum == true)
 			{
-				var result = Enum.Parse(type, enumValueName);
+				var result = Enum.Parse(type, enumValueName, true);
 				return (int)result;
 			}
 
